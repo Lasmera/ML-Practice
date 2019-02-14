@@ -1,10 +1,12 @@
-В данном разделе Вы узнаете, что такое Jupyter Notebook и как им пользоваться.
-А также познакомитесь с такими полезными библиотекам как:
-1. NumPy
-1. Pandas
-1. matplotlib
-1. seaborn
-1. sklearn (Scikit-learn)
+# Overview
+---
 
-Вы научитесь работать с такими типами данных как Series и DataFrame, добавлять, удалять, изменять, фильтровать данные, научитесь рисовать различные графики на основе Ваших данных.
-Познакомитесь с библиотекой для машинного обучения, с помощью которой можно легко и просто создать свои собственные модели для прогнозирования ближайшего (а может и не очень ближайшего) будущего.
+In this section you will learn what Jupiter Notebook is and how to use it.
+And also get acquainted with such useful libraries as:
+1. _NumPy_
+1. _Pandas_
+1. _Matplotlib_
+1. _Seaborn_
+1. _Scikit-learn_
+
+You will learn how to work with types such as **Series** and **DataFrame** that make it easier to work with data and make it easy to manipulate that data (_add, delete, modify, filter_) and learn how to draw different graphs based on your data.
