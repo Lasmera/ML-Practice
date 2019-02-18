@@ -183,11 +183,11 @@ ___Matplotlib___ - это библиотека для визуализации �
 
 Вот несколько примеров графиков, которые Вы сможете построить с помощью _matplotlib_:
 
-![matplotlib-01](../images/part01_matplotlib_01.png)
+![matplotlib-01](../images/part01/matplotlib_01.png)
 
-![matplotlib-02](../images/part01_matplotlib_02.png)
+![matplotlib-02](../images/part01/matplotlib_02.png)
 
-![matplotlib-03](../images/part01_matplotlib_03.png)
+![matplotlib-03](../images/part01/matplotlib_03.png)
 
 ---
 
@@ -199,13 +199,13 @@ _Seaborn_ содержит более адекватные дефолтные н
 
 Ниже Вы найдёте несколько примеров графиков, которые можно построить с помощью _seaborn_:
 
-![seaborn-01](../images/part01_seaborn_01.png)
+![seaborn-01](../images/part01/seaborn_01.png)
 
-![seaborn-02](../images/part01_seaborn_02.png)
+![seaborn-02](../images/part01/seaborn_02.png)
 
-![seaborn-03](../images/part01_seaborn_03.png)
+![seaborn-03](../images/part01/seaborn_03.png)
 
-![seaborn-04](../images/part01_seaborn_04.png)
+![seaborn-04](../images/part01/seaborn_04.png)
 
 ---
 
