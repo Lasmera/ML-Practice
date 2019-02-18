@@ -1,16 +1,25 @@
 # Overview
 
 In this section you will learn what Jupiter Notebook is and how to use it.
-And also get acquainted with such useful libraries as:
+And also get acquainted with such useful libraries (and their methods) as:
 1. _NumPy_
 1. _Pandas_
-1. _Matplotlib_
-1. _Seaborn_
+1. _Matplotlib_ (methods: _scatter()_)
+1. _Seaborn_ (methods: _pairplot(), factorplot(), jointplot()_)
 1. _Scikit-learn_
+1. _graphviz_
+1. _tqdm_
 
 You will learn how to work with types such as **Series** and **DataFrame** that make it easier to work with data and make it easy to manipulate that data (_add, delete, modify, filter_) and learn how to draw different graphs based on your data.
 
-## Подробности
+---
+
+## Описание
+
+Это практика курса по машинному обучению которая познакомит Вас с основными инструментами и библиотеками для анализа данных.
+В этой практике Вы научитесь работать с векторами, матрицами, таблицами с помощью таких популярных библиотек как _NumPy_ и _Pandas_, а с помощью _Matplotlib_ и _Seaborn_ Вы сможете строить различные графики, которые помогают при анализе данных.
+
+---
 
 ### NumPy
 
@@ -169,6 +178,11 @@ b 	20      2
 c 	30      3
 ```
 
+Пример построения _сводной таблицы_ (_pivot table_):
+```python
+
+```
+
 И это ещё не всё, на что способна эта, замечательная, библиотека.
 
 ---
@@ -201,11 +215,10 @@ _Seaborn_ содержит более адекватные дефолтные н
 
 ![seaborn-01](../images/part01/seaborn_01.png)
 
-![seaborn-02](../images/part01/seaborn_02.png)
+![seaborn-02](../images/part01/seaborn_02.jpg)
 
-![seaborn-03](../images/part01/seaborn_03.png)
-
-![seaborn-04](../images/part01/seaborn_04.png)
+![seaborn-03](../images/part01/seaborn_03.jpg)
+![seaborn-04](../images/part01/seaborn_04.jpg)
 
 ---
 
