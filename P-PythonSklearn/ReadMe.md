@@ -1,16 +1,25 @@
 # Overview
 
 In this section you will learn what Jupiter Notebook is and how to use it.
-And also get acquainted with such useful libraries as:
+And also get acquainted with such useful libraries (and their methods) as:
 1. _NumPy_
 1. _Pandas_
-1. _Matplotlib_
-1. _Seaborn_
+1. _Matplotlib_ (methods: _scatter()_)
+1. _Seaborn_ (methods: _pairplot(), factorplot(), jointplot()_)
 1. _Scikit-learn_
+1. _graphviz_
+1. _tqdm_
 
 You will learn how to work with types such as **Series** and **DataFrame** that make it easier to work with data and make it easy to manipulate that data (_add, delete, modify, filter_) and learn how to draw different graphs based on your data.
 
-## Подробности
+---
+
+## Описание
+
+Это практика курса по машинному обучению которая познакомит Вас с основными инструментами и библиотеками для анализа данных.
+В этой практике Вы научитесь работать с векторами, матрицами, таблицами с помощью таких популярных библиотек как _NumPy_ и _Pandas_, а с помощью _Matplotlib_ и _Seaborn_ Вы сможете строить различные графики, которые помогают при анализе данных.
+
+---
 
 ### NumPy
 
@@ -169,6 +178,40 @@ b 	20      2
 c 	30      3
 ```
 
+Пример построения _сводной таблицы_ (_pivot table_):
+```python
+>>> df = pandas.DataFrame({"A": ["foo", "foo", "foo", "foo", "foo",
+...                          "bar", "bar", "bar", "bar"],
+...                    "B": ["one", "one", "one", "two", "two",
+...                          "one", "one", "two", "two"],
+...                    "C": ["small", "large", "large", "small",
+...                          "small", "large", "small", "small",
+...                          "large"],
+...                    "D": [1, 2, 2, 3, 3, 4, 5, 6, 7],
+...                    "E": [2, 4, 5, 5, 6, 6, 8, 9, 9]})
+>>> df
+     A    B      C  D  E
+0  foo  one  small  1  2
+1  foo  one  large  2  4
+2  foo  one  large  2  5
+3  foo  two  small  3  5
+4  foo  two  small  3  6
+5  bar  one  large  4  6
+6  bar  one  small  5  8
+7  bar  two  small  6  9
+8  bar  two  large  7  9
+
+>>> table = pandas.pivot_table(df, values='D', index=['A', 'B'],
+...                     columns=['C'], aggfunc=np.sum)
+>>> table
+C        large  small
+A   B
+bar one      4      5
+    two      7      6
+foo one      4      1
+    two    NaN      6
+```
+
 И это ещё не всё, на что способна эта, замечательная, библиотека.
 
 ---
@@ -201,11 +244,10 @@ _Seaborn_ содержит более адекватные дефолтные н
 
 ![seaborn-01](../images/part01/seaborn_01.png)
 
-![seaborn-02](../images/part01/seaborn_02.png)
+![seaborn-02](../images/part01/seaborn_02.jpg)
 
-![seaborn-03](../images/part01/seaborn_03.png)
-
-![seaborn-04](../images/part01/seaborn_04.png)
+![seaborn-03](../images/part01/seaborn_03.jpg)
+![seaborn-04](../images/part01/seaborn_04.jpg)
 
 ---
 
@@ -219,4 +261,25 @@ ___Scikit-learn___ - это бесплатная библиотека машин
 * k-means
 * DBSCAN
 
-Также в ней содержится много алгоритмов, с помощью которых можно выполнять препроцессинг данных, который необходим для многих алгоритмов машинного обучения.
+Также в ней содержится много алгоритмов, с помощью которых можно выполнять предобработку данных, который необходим для многих алгоритмов машинного обучения.
+
+---
+
+### graphviz
+
+___graphviz___ - это библиотека для визуализации графов. Она пригодится для визуализации модели _решающего дерева_.
+
+![solve_tree-01](../images/part01/tree_01.jpg)
+
+---
+
+### tqdm
+
+___tqdm___ - библиотека для отображения _progressbar_ во время выполнения циклических операций.
+
+```python
+>>> from tqdm import tqdm
+>>> for i in tqdm(range(10000)):
+>>>    pass
+76%|████████████████████████████         | 7568/10000 [00:33<00:10, 229.00it/s]
+```
