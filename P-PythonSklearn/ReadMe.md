@@ -180,7 +180,36 @@ c 	30      3
 
 Пример построения _сводной таблицы_ (_pivot table_):
 ```python
+>>> df = pandas.DataFrame({"A": ["foo", "foo", "foo", "foo", "foo",
+...                          "bar", "bar", "bar", "bar"],
+...                    "B": ["one", "one", "one", "two", "two",
+...                          "one", "one", "two", "two"],
+...                    "C": ["small", "large", "large", "small",
+...                          "small", "large", "small", "small",
+...                          "large"],
+...                    "D": [1, 2, 2, 3, 3, 4, 5, 6, 7],
+...                    "E": [2, 4, 5, 5, 6, 6, 8, 9, 9]})
+>>> df
+     A    B      C  D  E
+0  foo  one  small  1  2
+1  foo  one  large  2  4
+2  foo  one  large  2  5
+3  foo  two  small  3  5
+4  foo  two  small  3  6
+5  bar  one  large  4  6
+6  bar  one  small  5  8
+7  bar  two  small  6  9
+8  bar  two  large  7  9
 
+>>> table = pandas.pivot_table(df, values='D', index=['A', 'B'],
+...                     columns=['C'], aggfunc=np.sum)
+>>> table
+C        large  small
+A   B
+bar one      4      5
+    two      7      6
+foo one      4      1
+    two    NaN      6
 ```
 
 И это ещё не всё, на что способна эта, замечательная, библиотека.
@@ -233,3 +262,24 @@ ___Scikit-learn___ - это бесплатная библиотека машин
 * DBSCAN
 
 Также в ней содержится много алгоритмов, с помощью которых можно выполнять предобработку данных, который необходим для многих алгоритмов машинного обучения.
+
+---
+
+### graphviz
+
+___graphviz___ - это библиотека для визуализации графов. Она пригодится для визуализации модели _решающего дерева_.
+
+![solve_tree-01](../images/part01/tree_01.jpg)
+
+---
+
+### tqdm
+
+___tqdm___ - библиотека для отображения _progressbar_ во время выполнения циклических операций.
+
+```python
+>>> from tqdm import tqdm
+>>> for i in tqdm(range(10000)):
+>>>    pass
+76%|████████████████████████████         | 7568/10000 [00:33<00:10, 229.00it/s]
+```
