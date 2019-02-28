@@ -43,3 +43,11 @@ This section contains information on anomaly detection in datasets.
 * _STD_:
 
 ![anomaly detection source for Saint-Petersburg (STD)-01](../images/part06/anomaly_detection_source_stpeterburg_std-01.png)
+
+Пример интерактивного графика:
+
+![anomaly-01](../images/part06/anomaly-02.png)
+
+Пример аномалии на наборе данных **MNIST Fashion**:
+
+![t-SNE MNIST Fashion-01](../images/part06/tsne_mnist_fashion-02.png)
