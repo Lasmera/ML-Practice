@@ -38,3 +38,7 @@ In the process of achieving this goal, you will learn about the following things
 Создадим процедуру для отображения, через которую визуализируем количество _позитивных_ и _негативных_ отзывов в каждой теме.
 
 ![result-01](../images/part02/result01.png)
+
+Пример результата работы **Word2Vec**:
+
+![Word2Vec similar-01](../images/part02/Word2Vec_similar-02.gif)
