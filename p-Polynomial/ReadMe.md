@@ -23,14 +23,20 @@ You will also learn what **Gradient descent**, **Stochastic gradient descent** a
 
 Помимо этого Вы познакомитесь с процессом создания графиков с анимацией:
 
-**Градиентный спуск**
+**Градиентный спуск:**
 
-![gradient descent-01](../images/part05/gradient_descent_animation-01.gif)
+Расходимость коэффициентов уровня прямой и ошибки (большом _learning rate_)
 
-**Стохастический градиентный спуск**
+![gradient descent-01](../images/part05/gradient_does_not_converge-02.gif)
+
+**Стохастический градиентный спуск:**
 
 ![stochastic gradient descent-01](../images/part05/stochastic_gradient_descent_animation-03.gif)
 
-**Градиентный спуск по минибатчам**
+**Градиентный спуск по минибатчам:**
 
 ![minibatch gradient descent-01](../images/part05/minibatch_gradient_descent_animation-01.gif)
+
+Сходимость коэффициентов уровня прямой и ошибки:
+
+![gradient minibatch-01](../images/part05/gradient_minibatch-02.gif)
