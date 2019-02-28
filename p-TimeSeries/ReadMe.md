@@ -45,7 +45,7 @@ On the way to this goal, we will consider the following things:
 
 ![Random forest-02](../images/part07/random_forest-02.png)
 
-1. Использование _dummy-переменных_:
+2. Использование _dummy-переменных_:
 
 Без _dummy-переменных_:
 
