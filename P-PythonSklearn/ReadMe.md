@@ -6,6 +6,7 @@ And also get acquainted with such useful libraries (and their methods) as:
 1. _Pandas_
 1. _Matplotlib_ (methods: _scatter()_)
 1. _Seaborn_ (methods: _pairplot(), factorplot(), jointplot()_)
+1. _Plotly_
 1. _Scikit-learn_
 1. _graphviz_
 1. _tqdm_
@@ -226,11 +227,11 @@ ___Matplotlib___ - это библиотека для визуализации �
 
 Вот несколько примеров графиков, которые Вы сможете построить с помощью _matplotlib_:
 
-![matplotlib-01](../images/part01/matplotlib_01.png)
+![matplotlib-01](../images/part01/matplotlib-01.png)
 
-![matplotlib-02](../images/part01/matplotlib_02.png)
+![matplotlib-02](../images/part01/matplotlib-02.png)
 
-![matplotlib-03](../images/part01/matplotlib_03.png)
+![matplotlib-03](../images/part01/matplotlib-03.png)
 
 ---
 
@@ -242,12 +243,24 @@ _Seaborn_ содержит более адекватные дефолтные н
 
 Ниже Вы найдёте несколько примеров графиков, которые можно построить с помощью _seaborn_:
 
-![seaborn-01](../images/part01/seaborn_01.png)
+![seaborn-01](../images/part01/seaborn-01.png)
 
-![seaborn-02](../images/part01/seaborn_02.jpg)
+![seaborn-02](../images/part01/seaborn-02.jpg)
 
-![seaborn-03](../images/part01/seaborn_03.jpg)
-![seaborn-04](../images/part01/seaborn_04.jpg)
+![seaborn-03](../images/part01/seaborn-03.jpg)
+![seaborn-04](../images/part01/seaborn-04.jpg)
+
+---
+
+### Plotly
+
+___Plotly___ - библиотека для визуализации интерактивных графиков.
+
+Например:
+
+**Sankey-диаграмма**:
+
+![sankey diagram-04](../images/part01/sankey-02.gif)
 
 ---
 
@@ -269,7 +282,7 @@ ___Scikit-learn___ - это бесплатная библиотека машин
 
 ___graphviz___ - это библиотека для визуализации графов. Она пригодится для визуализации модели _решающего дерева_.
 
-![solve_tree-01](../images/part01/tree_01.jpg)
+![solve_tree-01](../images/part01/tree-01.jpg)
 
 ---
 

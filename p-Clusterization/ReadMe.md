@@ -59,7 +59,7 @@ Before you run it, you should check and, if necessary, change the paths in the f
 
 Здесь Вы научитесь визуализировать данные в виде дендрограммы:
 
-![dendrogramm-01](../images/part04/dendrogram-02.png)
+![dendrogramm-01](../images/part04/dendrogram-03.png)
 
 В этом разделе Вы научитесь вычислять такие метрики качества как:
 * ___homogeneity___
