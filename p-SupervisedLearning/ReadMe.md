@@ -86,11 +86,23 @@ for name, clf in zip(names, classifiers):
     times.append(time.time() - start_time)
 ```
 
-![classifiers_time_comparison-01](../images/part03/classifiers_time_comparison-01.png)
+**Качество**:
+
+![classifiers accuracy comparison-01](../images/part03/classifiers_accuracy_comparison-01.png)
+
+**Время выполнения**:
+
+![classifiers time comparison-01](../images/part03/classifiers_time_comparison-01.png)
 
 Вы узнаете как и чем заполнять пустые значения у категориальных и вещественных признаков.
 Также Вы увидите как количество признаков влияет на скорость работы алгоритмов.
-Вот, например, время работы алгоритмов для данных с **11 699** признаками:
+Вот, например, _качество_ и  _время работы_ алгоритмов для данных с **11 699** признаками:
+
+**Качество**:
+
+![classifiers accuracy comparison-01](../images/part03/classifiers_accuracy_comparison-02.png)
+
+**Время выполнения**:
 
 ![11699 features](../images/part03/classifiers_time_comparison-02.png)
 
@@ -104,10 +116,10 @@ for name, clf in zip(names, classifiers):
 * ___XGBoost___.
 * ___CatBoost___.
 
-Также Вы научитесь проводить ___анализ точности и полноты___ различных моделей с помощью графика:
+Также Вы научитесь проводить ___анализ точности (precision) и полноты (recall)___ различных моделей с помощью графика:
 
 ![accuracy analysis-01](../images/part03/accuracy_analysis-01.png)
 
-И научитесь строить ___график зависимости точности и полноты от порога___:
+И научитесь строить ___график зависимости точности (precision) и полноты (recall) от порога___:
 
 ![accuracy vs threshold-01](../images/part03/accuracy_vs_threshold-01.png)

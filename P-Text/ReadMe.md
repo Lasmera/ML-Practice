@@ -23,22 +23,22 @@ In the process of achieving this goal, you will learn about the following things
 Также Вы познакомитесь с такой вещью как ___векторизация___ и с методами её реализации (___мешок слов___ (_bag of words_), ___TF-IDF___, ___Word2vec___, ___Doc2vec___).
 Научитесь строить ___матрицу неточностей___ (___confusion matrix___):
 
-![confusion_matrix-01](../images/part02/confusion_matrix01.png)
+![confusion_matrix-01](../images/part02/confusion_matrix-01.png)
 
 Создадите процедуру выявления наиболее значительных слов отражающих _позитивный_ и _негативный_ контексты:
 
-![important_words-01](../images/part02/important_words01.png)
+![important_words-01](../images/part02/important_words-01.png)
 
 Узнаете, что такое ___латентное размещение Дирихле___ (_Latent Dirichlet allocation_ - _LDA_), зачем оно нужно и как оно может помочь.
 Попробуете сгруппировать исходный текст по нескольким темам, а также узнаете как можно найти оптимальное их количество.
 
-![optimal_themes-01](../images/part02/optimal_themes01.png)
+![optimal_themes-01](../images/part02/optimal_themes-01.png)
 
 Проведём анализ количества документов которые попали в определённую тему.
 Создадим процедуру для отображения, через которую визуализируем количество _позитивных_ и _негативных_ отзывов в каждой теме.
 
-![result-01](../images/part02/result01.png)
+![result-01](../images/part02/result-01.png)
 
 Пример результата работы **Word2Vec**:
 
-![Word2Vec similar-01](../images/part02/Word2Vec_similar-02.gif)
+![Word2Vec similar-01](../images/part02/word2vec_similar-02.gif)

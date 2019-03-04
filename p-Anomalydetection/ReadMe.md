@@ -46,8 +46,8 @@ This section contains information on anomaly detection in datasets.
 
 Пример интерактивного графика:
 
-![anomaly-01](../images/part06/anomaly-02.png)
+![anomaly-01](../images/part06/anomaly-02.gif)
 
 Пример аномалии на наборе данных **MNIST Fashion**:
 
-![t-SNE MNIST Fashion-01](../images/part06/tsne_mnist_fashion-02.png)
+![t-SNE MNIST Fashion-01](../images/part06/tsne_mnist_fashion-02.gif)

@@ -29,6 +29,7 @@ pip install -r path/to/project/requirements.txt
 * [_Pandas_](http://pandas.pydata.org): http://pandas.pydata.org
 * [_Matplotlib_](https://matplotlib.org/): https://matplotlib.org/
 * [_Seaborn_](http://seaborn.pydata.org/): http://seaborn.pydata.org/
+* [_Plotly_](https://plot.ly/python): https://plot.ly/python
 * [_Scikit-learn_](https://scikit-learn.org/stable/): https://scikit-learn.org/stable/
 * [_graphviz_](https://graphviz.readthedocs.io): https://graphviz.readthedocs.io
 * [_tqdm_](https://github.com/tqdm/tqdm): https://github.com/tqdm/tqdm
@@ -76,22 +77,24 @@ pip install -r path/to/project/requirements.txt
 
 ![image-06](../images/part01/tree-01.jpg)
 
-![image-07](../images/part02/confusion_matrix-01.png)
+![image-07](../images/part01/sankey-02.gif)
 
-![image-08](../images/part03/accuracy_analysis-01.png)
+![image-08](../images/part02/confusion_matrix-01.png)
 
-![image-09](../images/part03/classifiers_time_comparison-01.png)
+![image-09](../images/part03/accuracy_analysis-01.png)
 
-![image-10](../images/part04/pca-01.png)
+![image-10](../images/part03/classifiers_time_comparison-01.png)
 
-![image-11](../images/part04/silhouette-02.png)
+![image-11](../images/part04/pca-01.png)
 
-![image-12](../images/part05/stochastic_gradient_descent_animation-03.gif)
+![image-12](../images/part04/silhouette-02.png)
 
-![image-13](../images/part06/anomaly_detection_pca_tsne_moscow-01.png)
+![image-13](../images/part05/stochastic_gradient_descent_animation-03.gif)
 
-![image-14](../images/part06/anomaly_detection_source_moscow_minmax-01.png)
+![image-14](../images/part06/anomaly_detection_pca_tsne_moscow-01.png)
 
-![image-15](../images/part07/result_prediction-01.png)
+![image-15](../images/part06/anomaly_detection_source_moscow_minmax-01.png)
 
-![image-16](../images/part07/sberbank_data-01.png)
+![image-16](../images/part07/result_prediction-01.png)
+
+![image-17](../images/part07/sberbank_data-01.png)
