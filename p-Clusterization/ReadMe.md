@@ -13,11 +13,11 @@ It will also consider ways to reduce the dimension of space with the help of suc
 ---
 
 Before you run it, you should check and, if necessary, change the paths in the following files:
->1. Configs\MNIST_Fashion\configs.py:
-    - ROOT_DIR (full path to the folder with the main file).
+>1. Configs\MNIST_Fashion\configs.py:  
+    - `ROOT_DIR` (full path to the folder with the main file).  
 >
->2. Configs\MNIST_Fashion\helper.py:
-    - You must specify the path to the file "configs.py", from which the necessary variables are taken (LOG_PATH, ROOT_DIR, ENABLE_LOGS, etc.).
+>2. Configs\MNIST_Fashion\helper.py:  
+    - You must specify the path to the file "**configs.py**", from which the necessary variables are taken (`LOG_PATH`, `ROOT_DIR`, `ENABLE_LOGS`, etc.).
 
 ---
 
@@ -32,7 +32,7 @@ Before you run it, you should check and, if necessary, change the paths in the f
 
 ![some color visualization ways-01](../images/part04/some_color_visualization_ways-01.png)
 
-Также Вы познакомитесь с таким полезным методом как ___уменьшение размерности___.
+Также Вы познакомитесь с такой полезной техникой как ___уменьшение размерности___ (___dimensionality reduction___).
 Здесь находится несколько примеров _уменьшения размерности_ с применением таких алгоритмов как:
 * ___Principal Component Analysis___ (___PCA___) - ___Метод главных компонент___.
 * ___Multidimensional Scaling___ (___MDS___) - ___Многомерное шкалирование___.
@@ -57,7 +57,7 @@ Before you run it, you should check and, if necessary, change the paths in the f
 
 ![UMAP-01](../images/part04/umap-01.png)
 
-Здесь Вы научитесь визуализировать данные в виде дендрограммы:
+Здесь Вы научитесь визуализировать данные в виде _дендрограммы_:
 
 ![dendrogramm-01](../images/part04/dendrogram-03.png)
 
@@ -66,10 +66,10 @@ Before you run it, you should check and, if necessary, change the paths in the f
 * ___completeness___
 * ___V-Measure___
 
-Также Вы изобразите график зависимости значений этих метрик от количества кластеров и проследите за тем как меняются показатели _homogeneity, completeness, V-Measure___ с ростом числа кластеров:
+Также Вы изобразите график зависимости значений этих метрик от количества кластеров и проследите за тем как меняются показатели _homogeneity, completeness, V-Measure_ с ростом числа кластеров:
 
 ![metrics values dependence of count of clusters-01](../images/part04/metrics_values_dependence_clusters_count-01.png)
 
-В конце данного раздела Вы познакомитесь с таким понятием как ___коэффициент силуэта___ и узнаете для чего он нужен:
+В конце данного раздела Вы познакомитесь с таким понятием как ___коэффициент силуэта___ (___silhouette___) и узнаете для чего он нужен:
 
 ![silhouette-01](../images/part04/silhouette-02.png)
