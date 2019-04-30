@@ -1,0 +1,40 @@
+catboost
+gensim
+graphviz
+ipykernel
+#Ipython
+#IPython display
+#JSAnimation IPython_display
+keras
+lime
+matplotlib
+#mpl_toolkits
+nltk
+numpy
+pandas
+plotly
+seaborn
+sklearn
+tabulate
+tqdm
+xgboost
+ipywidgets
+JSAnimation
+mpld3
+scipy
+seaborn 
+statsmodels
+tensorflow
+
+# ----- BUILT-IN PACKAGES -----
+#collections
+#copy
+#itertools
+#random
+#re
+#sys
+#time
+#warnings
+#codecs
+#
+# ----- BUILT-IN PACKAGES -----
